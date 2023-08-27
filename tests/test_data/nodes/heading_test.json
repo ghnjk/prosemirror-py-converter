@@ -1,0 +1,20 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "heading",
+        "attrs": {
+          "level": 3
+        },
+        "content": [
+          {
+            "type": "text",
+            "text": "Example heading."
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "### Example heading."
+}

@@ -1,0 +1,17 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "code_block",
+        "content": [
+          {
+            "type": "text",
+            "text": "first line\nsecond line\nthird."
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "```\nfirst line\nsecond line\nthird.\n```\n"
+}

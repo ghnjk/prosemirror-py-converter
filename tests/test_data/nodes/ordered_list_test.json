@@ -1,0 +1,31 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "ordered_list",
+        "content": [
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "text",
+                "text": "list_item_1"
+              }
+            ]
+          },
+          {
+            "type": "list_item",
+            "content": [
+              {
+                "type": "text",
+                "text": "list_item_2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "- list_item_1\n- list_item_2\n"
+}

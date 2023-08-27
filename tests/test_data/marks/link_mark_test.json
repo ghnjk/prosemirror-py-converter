@@ -1,0 +1,20 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "text",
+        "text": "Example Link",
+        "marks": [
+          {
+            "type": "link",
+            "attrs": {
+              "href": "https://example.url.io"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "[Example Link](https://example.url.io)"
+}

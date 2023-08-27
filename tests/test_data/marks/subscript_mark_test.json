@@ -1,0 +1,17 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "text",
+        "text": "Example text",
+        "marks": [
+          {
+            "type": "subscript"
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "> Example text"
+}

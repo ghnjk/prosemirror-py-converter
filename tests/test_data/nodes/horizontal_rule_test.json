@@ -1,0 +1,29 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "some text"
+          }
+        ]
+      },
+      {
+        "type": "horizontal_rule"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "other text"
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "some text\n\n---\nother text\n"
+}

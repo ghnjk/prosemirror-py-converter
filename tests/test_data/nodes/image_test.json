@@ -1,0 +1,16 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "image",
+        "attrs": {
+          "alt": "an image",
+          "src": "image/source",
+          "title": "the image title"
+        }
+      }
+    ]
+  },
+  "markdown": "![an image](image/source \"the image title\")"
+}

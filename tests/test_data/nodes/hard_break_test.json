@@ -1,0 +1,24 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "some text"
+          },
+          {
+            "type": "hard_break"
+          },
+          {
+            "type": "text",
+            "text": "other text"
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "some text\n\\\nother text\n"
+}

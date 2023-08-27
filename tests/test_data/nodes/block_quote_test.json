@@ -1,0 +1,17 @@
+{
+  "json": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "blockquote",
+        "content": [
+          {
+            "type": "text",
+            "text": "first line\nsecond line\nthird."
+          }
+        ]
+      }
+    ]
+  },
+  "markdown": "> first line\n> second line\n> third.\n"
+}

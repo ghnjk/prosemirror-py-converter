@@ -1,0 +1,17 @@
+{
+  "json": {
+    "content": [
+      {
+        "content": [
+          {
+            "text": "This area is dedicated to my personal book notes thatIm electing to publicly share via Project AMPLE.",
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    ],
+    "type": "doc"
+  },
+  "markdown": "This area is dedicated to my personal book notes thatIm electing to publicly share via Project AMPLE.\n"
+}
