@@ -4,7 +4,7 @@
 
 Python simple implementation of converting ProseMirror doc to markdown
 
-## core features
+## Core features
 
 - Based on [ProseMirror basic model](https://prosemirror.net/docs/ref/#model)
 - Support custom extension
