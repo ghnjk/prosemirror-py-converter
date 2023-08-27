@@ -1,6 +1,6 @@
 # prosemirror-py-converter
 
-[中文文档](README_CN.md)
+[中文指引](README_CN.md)
 
 Python simple implementation of converting ProseMirror doc to markdown
 
@@ -79,3 +79,48 @@ print(prose2markdown(doc))
 - code_block
 - hard_break
 - horizontal_rule
+
+## Custom ProseMirror extension examples
+
+[iwiki doc converter](pmconverter/extensions/iwiki_models.py)
+
+- custom mark converter example
+
+```
+from pmconverter.basic_model import CommonSimpleMark
+from pmconverter.model_factory import register_mark_class
+
+
+class CustomMark(CommonSimpleMark):
+
+    def __init__(self):
+        super().__init__()
+        self.type = "custom_mark"
+        self.md_pre_mark = "<u>"
+        self.md_after_mark = "</u>"
+
+
+register_mark_class("custom_mark", CustomMark)
+```
+
+- custom node converter example
+
+```
+from pmconverter.basic_model import Node
+from pmconverter.model_factory import register_node_class
+
+
+class CustomeImage(Node):
+
+    def __init__(self):
+        super().__init__()
+        self.type = "custom_image"
+
+    def convert_to_markdown(self, **kwargs) -> str:
+        name = self.get_attr("name", "")
+        url = self.get_attr("url", "")
+        return f"![{name}]({url})"
+        
+
+register_node_class("custom_image", CustomeImage)
+```
