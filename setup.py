@@ -7,6 +7,21 @@
 """
 from setuptools import setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+    long_description = long_description.replace(
+        "[中文指引](README_CN.md)",
+        "[中文指引](https://github.com/ghnjk/prosemirror-py-converter/blob/main/README_CN.md)"
+    )
+    long_description = long_description.replace(
+        "(pmconverter/prose_mirror_std_models.py)",
+        "(https://github.com/ghnjk/prosemirror-py-converter/blob/main/pmconverter/prose_mirror_std_models.py)"
+    )
+    long_description = long_description.replace(
+        "(pmconverter/extensions/iwiki_models.py)",
+        "(https://github.com/ghnjk/prosemirror-py-converter/blob/main/pmconverter/extensions/iwiki_models.py)"
+    )
+
 setup(
     name='prosemirror-py-converter',
     version='0.1',
@@ -14,15 +29,12 @@ setup(
     author_email='ghnjk@foxmail.com',
     url='https://github.com/ghnjk/prosemirror-py-converter',
     description=u'Python simple implementation of converting ProseMirror doc to markdown',
-    long_description="python simple implementation of prosemirror doc json to markdown format docs.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     classifiers=[
-        "Operating System :: OS Independent",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10"
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
     ],
     packages=['pmconverter'],
     install_requires=[],
