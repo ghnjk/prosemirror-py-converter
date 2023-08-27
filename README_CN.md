@@ -49,3 +49,33 @@ print(prose2markdown(doc))
 ```
 ### Example heading.
 ```
+
+## 支持的标准ProseMirror格式
+
+- [标准ProseMirror实现](pmconverter/prose_mirror_std_models.py)
+
+### mark 列表
+
+- link
+- bold
+- strong
+- code
+- italic
+- strike
+- subscript
+- superscript
+- underline
+
+### node 列表
+
+- doc
+- heading
+- paragraph
+- image
+- bullet_list
+- ordered_list
+- table
+- blockquote
+- code_block
+- hard_break
+- horizontal_rule

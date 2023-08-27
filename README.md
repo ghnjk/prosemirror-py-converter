@@ -49,3 +49,33 @@ print(prose2markdown(doc))
 ```
 ### Example heading.
 ```
+
+## Standard ProseMirror implementation
+
+- [Standard ProseMirror implementation](pmconverter/prose_mirror_std_models.py)
+
+### mark type list
+
+- link
+- bold
+- strong
+- code
+- italic
+- strike
+- subscript
+- superscript
+- underline
+
+### node type list
+
+- doc
+- heading
+- paragraph
+- image
+- bullet_list
+- ordered_list
+- table
+- blockquote
+- code_block
+- hard_break
+- horizontal_rule
