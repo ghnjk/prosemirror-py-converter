@@ -33,7 +33,7 @@ def setup_module():
     "normal_doc_1",
     "iwiki_doc_1",
     "iwiki_doc_2",
-    "iwiki_doc_3"
+    "iwiki_doc_3",
 ])
 def test_iwiki_converter(file_dir: str, case_name: str):
     doc, md = load_test_data(file_dir, case_name)

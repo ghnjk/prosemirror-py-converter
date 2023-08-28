@@ -24,7 +24,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='prosemirror-py-converter',
-    version='0.1',
+    version='0.2',
     author='ghnjk',
     author_email='ghnjk@foxmail.com',
     url='https://github.com/ghnjk/prosemirror-py-converter',
