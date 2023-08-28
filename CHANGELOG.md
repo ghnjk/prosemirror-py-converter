@@ -7,3 +7,7 @@
 ## v0.2
 
 - feat: 补充iwiki的扩展mark和node类型支持
+
+## v0.3
+
+- fix: 修复打包少了extension扩展库的问题

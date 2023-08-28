@@ -5,7 +5,7 @@
 @author: ghnjk
 @create: 2023/8/26
 """
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -24,7 +24,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='prosemirror-py-converter',
-    version='0.2',
+    version='0.3',
     author='ghnjk',
     author_email='ghnjk@foxmail.com',
     url='https://github.com/ghnjk/prosemirror-py-converter',
@@ -36,7 +36,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"
     ],
-    packages=['pmconverter'],
+    packages=find_packages(),
     install_requires=[],
     license='MIT',
     keywords='prosemirror markdown pmconverter html python-converter'
